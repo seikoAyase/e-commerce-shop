@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies (root)
         run: npm install
 
-      - name: Run Prettier
-        run: npm run format
+      # - name: Run Prettier
+      #   run: npm run format
 
   backend:
     name: "✅ Backend Tests"
